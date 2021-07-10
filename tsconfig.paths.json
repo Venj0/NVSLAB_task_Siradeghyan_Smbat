@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "rootDir": ".",
+        "paths": {
+            "@vj-components": ["src/components/index"],
+            "@vj-styles/*": ["src/styles/*"],
+            "@vj-templates": ["src/templates/index"],
+            "@vj-store": ["src/store/index"],
+            "@vj-store/*": ["src/store/*"]
+        }
+    }
+}
